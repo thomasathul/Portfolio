@@ -1,0 +1,476 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Athul Thomas | Portfolio</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Athul Thomas | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Your name here] | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-color-main name">Athul Thomas</span>
+          <br />
+          I code, create, and impact
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Learn more about me</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/image.jpeg"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+             I am passionate about building impactful solutions that combine embedded systems, IoT, and cloud technologies. At L&T Technology Services, I led end-to-end embedded software tasks, boosting unit test coverage and automating workflows. My work spans AI/ML projects like EcoGenAI and root-cause analysis systems, where I developed scalable applications from edge to cloud
+            </p>
+            <p class="about-wrapper__info-text">
+             My core skills include Python, C, C++, Bash, and AWS, backed by AWS Cloud Practitioner and Developer Associate certifications. I also have hands-on experience with IoT and Embedded solutions, including sensor integration, cloud data streaming, and real-time analytics.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="https://drive.google.com/file/d/1d1e5b_vAd6GmfND8jX11vfS8MTDkLA5h/view?usp=sharing" class="cta-btn cta-btn--resume" target="_blank">View Resume</a>            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+ <section class="life-journey">
+  <h2 >My Journey</h2>
+  <div class="scroll-container">
+    <div class="timeline-horizontal">
+      <div class="timeline-point">
+        <span class="year">2017</span>
+        <div class="desc">High School Graduation</div>
+      </div>
+      <div class="timeline-point">
+        <span class="year">2017-2021</span>
+        <div class="desc">Bachelors in Electrical and Electronics Engineering at VIT University</div>
+      </div>
+      <div class="timeline-point">
+        <span class="year">2021</span>
+        <div class="desc">Graduate Trainee (Embedded Software) at L & T Technology Services</div>
+      </div>
+      <div class="timeline-point">
+        <span class="year">2021-2022</span>
+        <div class="desc">Associate Engineer at L & T Technology Services</div>
+      </div>
+      <div class="timeline-point">
+        <span class="year">2022-2023</span>
+        <div class="desc">Engineer at L & T Technology Services</div>
+      </div>
+      <div class="timeline-point">
+        <span class="year">2023-2025</span>
+        <div class="desc">Master's in Electrical and Computer Engineering at Concordia University </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  document.querySelectorAll('.timeline-point').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title dark-blue-text">Technical Skills</h2>
+    <div class="skills-grid-vertical">
+
+      <div class="skill-column-vertical">
+        <h4>Programming Skills</h4>
+        <div class="pill-container">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">C</span>
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Bash</span>
+          <span class="skill-pill">YAML</span>
+          <span class="skill-pill">OOPS</span>
+          <span class="skill-pill">FastAPI</span>
+        </div>
+      </div>
+
+      <div class="skill-column-vertical">
+        <h4>Cloud, Devops and AI Skills</h4>
+        <div class="pill-container">
+          <span class="skill-pill">AWS</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">JIRA</span>
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">LLM</span>
+          <span class="skill-pill">Scikit-learn</span>
+          <span class="skill-pill">Pandas</span>
+        </div>
+      </div>
+
+      <div class="skill-column-vertical">
+        <h4>Embedded & IoT Skills</h4>
+        <div class="pill-container">
+          <span class="skill-pill">Raspberry Pi</span>
+          <span class="skill-pill">Arduino</span>
+          <span class="skill-pill">UART</span>
+          <span class="skill-pill">SPI</span>
+          <span class="skill-pill">I2C</span>
+          <span class="skill-pill">CAN</span>
+          <span class="skill-pill">VectorCast</span>
+          <span class="skill-pill">VectorCANoe</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- /END About Section -->
+<section id="certifications">
+  <div class="container">
+    <h2 class="section-title dark-blue-text">Certifications</h2>
+    <div class="certifications-wrapper">
+      <div class="certifications-scroll">
+
+        <a href="https://www.credly.com/badges/1096320e-cf28-4479-966b-173b0c7ad77e/public_url" target="_blank">
+          <img src="assets/image2.png" alt="AWS Cloud Practitioner" class="cert-badge" />
+        </a>
+
+        <a href="https://www.credly.com/badges/9458ee4a-52db-4647-a851-d9fbb1bd8bf3/public_url" target="_blank">
+          <img src="assets/image3.png" alt="AWS Developer Associate" class="cert-badge" />
+        </a>
+
+        <a href="https://www.credly.com/badges/de8cb826-eac3-4918-9ea8-d8dda8dd9dc0/public_url" target="_blank">
+          <img src="assets/image4.png" alt="IBM Z-Xplore Concepts" class="cert-badge" />
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">EcoGenAI</h3>
+              <p class="project-wrapper__text-info">
+                This is an AI-powered predictive maintenance system developed for the aerospace industry to detect early signs of equipment wear and anomalies. Built using Python, FastAPI, and Streamlit, the system integrates acoustic and visual sensor data with machine learning models to analyze component health in real-time. 
+                The project was a finalist in the 2025 SustAInable Aviation Challenge, recognized for its innovative approach of AI and LLM. EcoGenAI not only enhances equipment reliability but also reduces maintenance costs by enabling proactive decision-making.
+              </p>
+              <div class="project-wrapper__text-btns">
+              
+                <a href="https://github.com/thomasathul/EcoGenAI---Aircraft-Predictive-Maintenance" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Picture1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Video Streaming using CDN</h3>
+              <p class="project-wrapper__text-info">
+                This project focused on building a scalable, secure, and efficient content delivery network for on-demand video playback. Designed with a distributed architecture, the system uses a round-robin load balancer to route requests across multiple replica servers, ensuring high availability and reduced latency. Videos are streamed asynchronously over HTTP/2 and secured with HTTPS using self-signed SSL certificates. The architecture includes an origin server that manages content replication and a controller that orchestrates video requests.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/thomasathul/Video_Streaming_using_CDN" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Picture2.jpeg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">IoT Based Weather Monitoring System</h3>
+              <p class="project-wrapper__text-info">
+                This project is a real-time environmental data acquisition project built using a Raspberry Pi 3 and various sensors. It captures key atmospheric parameters such as temperature, humidity, air pressure, and air quality using DHT11, BMP180, MQ135, and MCP3008 sensors interfaced via I2C, SPI, and UART protocols. The system streams the collected data live to the ThingSpeak cloud platform, enabling remote monitoring and visualization. 
+              </p>
+              <div class="project-wrapper__text-btns">
+              
+                <a href="https://github.com/thomasathul/IoT_Based_Weather_Monitoring_System" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Picture3.jpeg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+            <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Root Cause Analysis Using RAG based Architecture</h3>
+              <p class="project-wrapper__text-info">
+               This project leverages Retrieval-Augmented Generation (RAG) architecture to identify and explain the causes of system failures using natural language processing. A custom pipeline was built where relevant logs and prior incident reports are indexed using vector embeddings. At runtime, the system retrieves the most contextually similar documents related to a failure query and feeds them into a language model to generate coherent, human-readable explanations. This approach not only enhances accuracy by grounding responses in real data but also enables scalable and explainable diagnostics
+              </p>
+              <div class="project-wrapper__text-btns">
+              
+                <a href="https://github.com/thomasathul/Root-Cause-Analysis-Using-RAG" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Picture4.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+     <section id="contact">
+  <div class="container">
+    <h2 class="section-title animate-title">Contact Me</h2>
+    <form action="https://formspree.io/f/xovdgwaj" method="POST" class="contact-form animate-form">
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="subject" placeholder="Subject" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    
+  </div>
+</section>
+   
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.x.com/thomas_athul"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+      
+ 
+          <a
+            href="https://www.linkedin.com/in/athulthomas"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          <a
+         href="mailto:athulthomas@example.com"
+        target="_blank"
+        rel="noopener noreferrer"
+         aria-label="Email"
+          >
+          <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            href="https://www.github.com/thomasathul"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Template by
+          <a
+            href="https://github.com/thomasathul"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Athul Thomas</a>
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
