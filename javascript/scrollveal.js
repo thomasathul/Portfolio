@@ -83,13 +83,7 @@ ScrollReveal().reveal('.skill-pill', {
   origin: 'bottom',
 });
 
-/* Certifications Badges */
-ScrollReveal().reveal('.cert-badge', {
-  ...defaultProps,
-  interval: 100,
-  scale: 0.85,
-  origin: 'bottom',
-});
+
 
 /* Contact Form and Title */
 ScrollReveal().reveal('#contact h2', {
