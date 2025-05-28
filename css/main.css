@@ -26,6 +26,26 @@
   transform: scale(1.1); /* Slightly more pronounced hover effect */
 }
 
+.scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.timeline-horizontal {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 0;
+  border-top: 2px solid #444;
+  min-width: 600px;
+}
+
+.timeline-point {
+  flex-shrink: 0;
+  width: 160px;
+  position: relative;
+}
 .life-journey {
   padding: 3rem 1rem;
   background-color: #111;
@@ -40,31 +60,9 @@
   color: #00bcd4;
 }
 
-.scroll-container {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Firefox */
-}
-
 .scroll-container::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Edge */
 }
-
-.timeline-horizontal {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 4rem;
-  padding: 2rem 1rem;
-  border-top: 2px solid #444;
-  min-width: 700px;
-}
-
-.timeline-point {
-  opacity: 1;
-  transform: translateX(-60px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
 
 
 .timeline-point .year {
