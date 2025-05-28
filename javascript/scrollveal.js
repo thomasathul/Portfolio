@@ -74,11 +74,7 @@ ScrollReveal().reveal(".fa", {
   interval: 100,
 });
 
-ScrollReveal().reveal('.timeline-point', {
-  ...defaultProps,
-  interval: 40,
-  origin: 'left',
-});
+
 
 /* Skill Pills */
 ScrollReveal().reveal('.skill-pill', {
