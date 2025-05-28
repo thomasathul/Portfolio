@@ -53,10 +53,10 @@
 .timeline-horizontal {
   display: flex;
   flex-wrap: nowrap;
-  gap: 4rem;
+  gap: 7rem;
   padding: 2rem 1rem;
   border-top: 2px solid #444;
-  min-width: 700px;
+  min-width: 800px;
 }
 
 .timeline-point {
