@@ -73,3 +73,37 @@ ScrollReveal().reveal(".fa", {
   delay: 500,
   interval: 100,
 });
+
+ScrollReveal().reveal('.timeline-point', {
+  ...defaultProps,
+  interval: 150,
+  origin: 'left',
+});
+
+/* Skill Pills */
+ScrollReveal().reveal('.skill-pill', {
+  ...defaultProps,
+  interval: 100,
+  origin: 'bottom',
+});
+
+/* Certifications Badges */
+ScrollReveal().reveal('.cert-badge', {
+  ...defaultProps,
+  interval: 150,
+  scale: 0.85,
+  origin: 'bottom',
+});
+
+/* Contact Form and Title */
+ScrollReveal().reveal('#contact h2', {
+  ...defaultProps,
+  delay: 300,
+  distance: '0px',
+});
+
+ScrollReveal().reveal('.contact-form', {
+  ...defaultProps,
+  delay: 600,
+  origin: 'bottom',
+});
