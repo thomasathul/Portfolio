@@ -136,7 +136,21 @@
     </div>
   </div>
 </section>
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
 
+  document.querySelectorAll('.timeline-point').forEach(el => {
+    observer.observe(el);
+  });
+</script>
 <section id="skills" class="section">
   <div class="container">
     <h2 class="section-title dark-blue-text">Technical Skills</h2>
