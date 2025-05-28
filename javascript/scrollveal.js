@@ -76,7 +76,7 @@ ScrollReveal().reveal(".fa", {
 
 ScrollReveal().reveal('.timeline-point', {
   ...defaultProps,
-  interval: 150,
+  interval: 40,
   origin: 'left',
 });
 
@@ -90,7 +90,7 @@ ScrollReveal().reveal('.skill-pill', {
 /* Certifications Badges */
 ScrollReveal().reveal('.cert-badge', {
   ...defaultProps,
-  interval: 150,
+  interval: 100,
   scale: 0.85,
   origin: 'bottom',
 });
